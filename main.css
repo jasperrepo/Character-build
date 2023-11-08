@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: rgba(255, 166, 0, 0.877);
     padding: 10px 0;
 }
 
@@ -29,7 +29,7 @@ header {
 
 #character_nav {
     background-color: #675050;
-    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-image: url('../img/Character\ Profile\ shots.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -48,7 +48,7 @@ header {
     margin: 10px 8px;
     text-align: left;
     cursor: pointer;
-    box-shadow: 0 155px 0 rgb(255, 0, 0) inset;
+    box-shadow: 0 155px 0 rgb(255, 166, 0, 0.877) inset;
     transition: box-shadow .2s ease;
 }
 
@@ -57,7 +57,7 @@ header {
 }
 
 .characters li:hover {
-    box-shadow: 0 220px 0 rgb(255, 0, 0) inset;
+    box-shadow: 0 220px 0 rgba(255, 166, 0, 0.877) inset;
 }
 
 .characters li h5 {
@@ -86,13 +86,13 @@ article p, #instructions p {
     background-image: url('../images/marvelSprites.jpg');
 }
 
-#carol {background-position: -150px 0;}
-#clint {background-position: -300px 0;}
-#hulk {background-position: -450px 0;}
-#thor {background-position: -600px 0;}
-#widow {background-position: -750px 0;}
+#jon {background-position: -150px 0;}
+#cat {background-position: -300px 0;}
+#rob {background-position: -450px 0;}
+#arya {background-position: -600px 0;}
+#sansa {background-position: -750px 0;}
 
-#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+#jon:hover, #cat:hover, #rob:hover, #arya:hover, #sansa:hover, #bran:hover {
     background-position-y: -150px;
 }
 
@@ -115,7 +115,7 @@ footer {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-image: url('../img/jon.jpg');
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
@@ -123,7 +123,7 @@ footer {
 }
 
 #lightbox2 {
-    background-image: url('../images/Thor_LB_Bg.png');
+    background-image: url('../img/rob.jpg');
 }
 
 .lightbox_close {
@@ -142,7 +142,7 @@ footer {
 
 .lightbox_close:hover {
     opacity: 0.5;
-    color: red;
+    color: rgba(255, 166, 0, 0.877);
 }
 
 .lightbox article {
